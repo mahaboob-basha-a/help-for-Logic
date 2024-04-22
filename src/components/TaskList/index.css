@@ -1,0 +1,16 @@
+.tagList {
+  display: flex;
+  width: 98%;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 8px;
+}
+.tagVal {
+  padding: 5px 10px;
+  border-radius: 12px;
+  background-color: #f3aa4e;
+  color: #323f4b;
+  font-size: 12px;
+  
+}

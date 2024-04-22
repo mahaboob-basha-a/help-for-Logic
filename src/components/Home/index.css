@@ -1,0 +1,51 @@
+.main-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.taskList{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tagsUl {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+  width: 90%;
+  flex-wrap: wrap;
+  color: #fff;
+}
+.leftContainer {
+  height: 100vh;
+  width: 40vw;
+  background-color: #323f4b;
+  color: #fff;
+}
+.addbtn {
+  border: 0;
+  padding: 8px 22px;
+  border-radius: 5px;
+  background-color: #f3aa4e;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#tags {
+  width: 70%;
+  padding: 6px;
+  background-color: #fff;
+}
+#task {
+  width: 70%;
+  padding: 6px;
+  background-color: #fff;
+}
+.rightSide {
+  width: 60vw;
+  height: 100vh;
+  color: #fff;
+  background-color: #131213;
+}
